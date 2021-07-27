@@ -269,6 +269,18 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
+        i = 0
+        j = 5
+        while True:
+            print_data = input('\nWould you like to print 5 rows of data? Enter yes or no\n')
+            if print_data.lower() == 'yes':
+                print(df.iloc[[i,j]])
+                i += 5
+                j += 5
+                continue
+            else:
+                break
+        
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
