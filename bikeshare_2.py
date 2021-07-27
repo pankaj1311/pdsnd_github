@@ -275,6 +275,7 @@ def main():
             print_data = input('\nWould you like to print 5 rows of data? Enter yes or no\n')
             if print_data.lower() == 'yes':
                 print(df.iloc[[i,j]])
+                print(df.iloc[i,j])
                 i += 5
                 j += 5
                 continue
