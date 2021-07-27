@@ -6,6 +6,9 @@ Pankaj Kumar
 ### Date created
 27th-July-2021
 
+### Software Details
+Python 3.8 - Pandas & Numpy
+
 ### Project Title
 Analyze the US Bikeshare Data
 
