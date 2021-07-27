@@ -276,6 +276,7 @@ def main():
             if print_data.lower() == 'yes':
                 print(df.iloc[[i,j]])
                 print(df.iloc[i,j])
+                print(df.head())
                 i += 5
                 j += 5
                 continue
